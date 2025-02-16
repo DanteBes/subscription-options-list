@@ -43,7 +43,8 @@ header {
 .cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  flex-direction: column ;
+  grid-template-rows: repeat(3, 1fr);
+  flex-direction: column;
   gap: 0.5rem;
   flex-wrap: wrap ;
   justify-content: center;
